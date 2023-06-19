@@ -1,0 +1,23 @@
+body {
+    background-color: #101728;
+}
+
+#tec {
+    color: #0E66B8;
+}
+#em {
+    color: #FAFF00;
+}
+#sist {
+    color: #1B6F14;
+}
+#para {
+    color: #FAFF00;
+}
+#net {
+    color: #0E66B8;
+}
+#tituloprincipal {
+    display: flex;
+    align-items: center;
+}
