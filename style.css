@@ -4,25 +4,138 @@ body {
 
 #tec {
     color: #0E66B8;
+    height: 40px;
+    margin:0;
+    padding:0;
 }
 #em {
     display: flex;
     color: #FAFF00;
-    margin-left: 20%;
-    border: solid black;
+    margin-left: 10%;
+    height: 40px;
+    margin:0;
+    padding:0;
+    margin-left: 14%;
 }
 #sist {
+    height: 40px;
     color: #1B6F14;
+    margin-left: 20%;
+    margin:0;
+    padding:0;
+    margin-left: 19%;
 }
 #para {
+    height: 40px;
     color: #FAFF00;
+    margin-left: 30%;
+    margin:0;
+    padding:0;
+    margin-left: 34%;
 }
 #net {
+    
     color: #0E66B8;
+    margin-left: 40%;
+    margin:0;
+    padding:0;
+    margin-left: 43%;
+}
+#slogan {
+    display: flex;
+    color: white;
+    margin-left: 10%;
+    background-color: #1B6F14;
+    border-radius: 10px;
+    border: solid black;
+    font-size: x-large;
+    margin-left: 20%;
+}
+#top1 {
+    color: green;
+    border: solid green 1px;
+    margin-left: 5px;
+    font-size: large;
+    background-color: white;
+    padding: 0;
+    height: 20px;
+}
+#top2 {
+    color: green;
+        border: solid green 1px;
+    margin-left: 5px;
+    font-size: large;
+    background-color: white;
+    padding: 0;
+    height: 20px;
+}
+#top3 {
+    color:green;
+    border: solid green 1px;
+    margin-left: 5px;
+    font-size: large;
+    background-color: white;
+    padding: 0;
+    height: 20px;
+}
+#top4 {
+    color:green;
+    border: solid green 1px;
+    margin-left: 5px;
+    font-size: large;
+    background-color: white;
+    padding: 0;
+    height: 20px;
+
+}
+#top5 {
+    color:green;
+    border: solid green 1px;
+    margin-left: 5px;
+    font-size: large;
+    background-color: white;
+    padding: 0;
+    height: 20px;
+
+}
+#top6 {
+    color:green;
+    border: solid green 1px;
+    margin-left: 5px;
+    font-size: large;
+    background-color: white;
+    padding: 0;
+    height: 20px;
+
+}
+.b {
+    border: solid rgb(255, 255, 255) 1px;
+    margin-top: 20px;
+    padding: 0;
+
+}
+.bo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    padding: 0;
+}
+.bo2 {
+    border: solid rgb(255, 255, 255) 1px;
+    margin-top: 5px;
+    padding: 0;
 }
 .p {
     display: flex;
-    border: solid black;
     flex-direction: column;
-
+    margin-left: 29%;
+    margin-right: 10px;
+}
+.topico {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 40%;
+    align-items: center;
+    margin-left: 30%;
 }
