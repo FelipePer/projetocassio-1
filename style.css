@@ -9,11 +9,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.display {
-    display: flex;
-
-}
-
 .logoif {
     margin: 40;
 
@@ -102,6 +97,15 @@ html {
     font-size: x-large;
     margin-left: 20%;
 }
+
+.topo {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    border: solid white;
+    border-radius: 50px;
+}
+
 #top1 {
     color: green;
     font-size: large;
@@ -158,7 +162,7 @@ html {
     font-size: 25px;
 }
 
-.topico {
+.topico1 {
     border: solid white;
     display: flex;
     flex-direction: row;
@@ -167,6 +171,67 @@ html {
     margin-left: 20%;
     width: 75%;
     align-items: center;
+    color: white;
+}
+
+.topico2 {
+    border: solid white;
+    display: flex;
+    flex-direction: row;
+    margin: 500px;
+    margin-top: 180px;
+    margin-left: 20%;
+    width: 75%;
+    align-items: center;
+    color: white;
+}
+
+.topico3 {
+    border: solid white;
+    display: flex;
+    flex-direction: row;
+    margin: 500px;
+    margin-top: 180px;
+    margin-left: 20%;
+    width: 75%;
+    align-items: center;
+    color: white;
+}
+
+.topico4 {
+    border: solid white;
+    display: flex;
+    flex-direction: row;
+    margin: 500px;
+    margin-top: 180px;
+    margin-left: 20%;
+    width: 75%;
+    align-items: center;
+    color: white;
+}
+
+.topico5 {
+    border: solid white;
+    display: flex;
+    flex-direction: row;
+    margin: 500px;
+    margin-top: 180px;
+    margin-left: 20%;
+    width: 75%;
+    align-items: center;
+    color: white;
+}
+
+.topico6 {
+    border: solid white;
+    display: flex;
+    flex-direction: row;
+    margin: 500px;
+    margin-top: 180px;
+    margin-left: 20%;
+    width: 75%;
+    align-items: center;
+    color: white;
 }
 
 #caranopc {
