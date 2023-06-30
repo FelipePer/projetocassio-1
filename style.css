@@ -5,6 +5,10 @@ body {
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .display {
     display: flex;
 
@@ -153,23 +157,30 @@ body {
     flex-direction: column;
     font-size: 25px;
 }
+
 .topico {
+    border: solid white;
     display: flex;
     flex-direction: row;
     margin: 500px;
-    margin-left: 30%;
-    width: 50%;
+    margin-top: 180px;
+    margin-left: 20%;
+    width: 75%;
     align-items: center;
+}
+
+#caranopc {
+    margin-right: 50px;
 }
 p {
     margin: 10px;
 }
-#slogan {
+ #titulosobre {
+    border: solid white;
     display: flex;
-    height: 20%;
-    cursor: pointer;
-    align-items: center;
-}
+    color: #1B6F14;
+    text-align: center;
+ }
 h1 {
     margin: 0px;
 }
