@@ -1,45 +1,92 @@
 body {
+    margin: 0;
+    height: 100vh;
     background-color: #101728;
+
+}
+
+.display {
+    display: flex;
+
+}
+
+.logoif {
+    margin: 40;
+
+}
+.box-busca {
+    position: absolute;
+    margin-left: 80%;
+    top: 14%;
+    transform: translate(-50%, -50%);
+    background-color: #1B6F14;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 13px;
+    line-height: 40px;
+    width: 240px;
+
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1B6F14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lupapng {
+    margin-top: 5px;
+    margin-left: 3px;
 }
 
 #tec {
+    display: flex;
     color: #0E66B8;
-    height: 40px;
-    margin:0;
-    padding:0;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 0px;
 }
 #em {
     display: flex;
+    margin-left: 30%;
     color: #FAFF00;
-    margin-left: 10%;
-    height: 40px;
-    margin:0;
-    padding:0;
-    margin-left: 14%;
+    padding: 0px;
 }
 #sist {
-    height: 40px;
-    color: #1B6F14;
-    margin-left: 20%;
-    margin:0;
-    padding:0;
-    margin-left: 19%;
-}
-#para {
-    height: 40px;
-    color: #FAFF00;
-    margin-left: 30%;
-    margin:0;
-    padding:0;
-    margin-left: 34%;
-}
-#net {
-    
-    color: #0E66B8;
+    display: flex;
     margin-left: 40%;
-    margin:0;
-    padding:0;
-    margin-left: 43%;
+    color: #1B6F14;
+
+}
+
+#para {
+    display: flex;
+    margin-left: 60%;
+    color: #FAFF00;
+
+}
+
+#net {
+    display: flex;
+    margin-left: 75%;
+    color: #0E66B8;
+
 }
 #slogan {
     display: flex;
@@ -53,89 +100,81 @@ body {
 }
 #top1 {
     color: green;
-    border: solid green 1px;
-    margin-left: 5px;
     font-size: large;
-    background-color: white;
-    padding: 0;
-    height: 20px;
+    text-decoration: none;
+
 }
 #top2 {
     color: green;
-        border: solid green 1px;
-    margin-left: 5px;
     font-size: large;
-    background-color: white;
-    padding: 0;
-    height: 20px;
+    text-decoration: none;
+
 }
 #top3 {
     color:green;
-    border: solid green 1px;
-    margin-left: 5px;
     font-size: large;
-    background-color: white;
-    padding: 0;
-    height: 20px;
+    text-decoration: none;
+
 }
 #top4 {
     color:green;
-    border: solid green 1px;
-    margin-left: 5px;
     font-size: large;
-    background-color: white;
-    padding: 0;
-    height: 20px;
+    text-decoration: none;
+
 
 }
 #top5 {
     color:green;
-    border: solid green 1px;
-    margin-left: 5px;
     font-size: large;
-    background-color: white;
-    padding: 0;
-    height: 20px;
+    text-decoration: none;
 
 }
 #top6 {
     color:green;
-    border: solid green 1px;
-    margin-left: 5px;
     font-size: large;
-    background-color: white;
-    padding: 0;
-    height: 20px;
+    text-decoration: none;
 
 }
-.b {
-    border: solid rgb(255, 255, 255) 1px;
-    margin-top: 20px;
-    padding: 0;
 
-}
+
 .bo {
     display: flex;
     flex-direction: row;
-    margin-top: 5px;
-    padding: 0;
+    margin: 100px;
+    margin-top: 130px;
+    margin-left: 150px;
+    width: 80%;
+    justify-content: space-around;
+    text-decoration: none;
 }
-.bo2 {
-    border: solid rgb(255, 255, 255) 1px;
-    margin-top: 5px;
-    padding: 0;
-}
+
 .p {
     display: flex;
     flex-direction: column;
-    margin-left: 29%;
-    margin-right: 10px;
+    font-size: 25px;
 }
 .topico {
     display: flex;
     flex-direction: row;
-    height: 30%;
-    width: 40%;
-    align-items: center;
+    margin: 500px;
     margin-left: 30%;
+    width: 50%;
+    align-items: center;
+}
+p {
+    margin: 10px;
+}
+#slogan {
+    display: flex;
+    height: 20%;
+    cursor: pointer;
+    align-items: center;
+}
+h1 {
+    margin: 0px;
+}
+.id1 {
+    display: flex;
+    align-items: center;
+    padding: 0px;
 }
