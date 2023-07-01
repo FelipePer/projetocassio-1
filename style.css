@@ -13,6 +13,12 @@ html {
     margin: 40;
 
 }
+
+.show-button .topo {
+    right: 20px;
+}
+
+
 .box-busca {
     position: absolute;
     margin-left: 80%;
