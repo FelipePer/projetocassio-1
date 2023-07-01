@@ -4,6 +4,10 @@ body {
     background-color: #101728;
 
 }
+a {
+    text-decoration: no;
+    color: white;
+}
 
 html {
     scroll-behavior: smooth;
@@ -163,7 +167,7 @@ html {
 }
 
 .topico1 {
-    border: solid white;
+    border: solid white 2px;
     display: flex;
     flex-direction: row;
     margin: 500px;
@@ -172,10 +176,11 @@ html {
     width: 75%;
     align-items: center;
     color: white;
+    border-radius: 10px;
 }
 
 .topico2 {
-    border: solid white;
+    border: solid white 2px;
     display: flex;
     flex-direction: row;
     margin: 500px;
@@ -184,10 +189,11 @@ html {
     width: 75%;
     align-items: center;
     color: white;
+    border-radius: 10px;
 }
 
 .topico3 {
-    border: solid white;
+    border: solid white 2px;
     display: flex;
     flex-direction: row;
     margin: 500px;
@@ -196,10 +202,11 @@ html {
     width: 75%;
     align-items: center;
     color: white;
+    border-radius: 10px;
 }
 
 .topico4 {
-    border: solid white;
+    border: solid white 2px;
     display: flex;
     flex-direction: row;
     margin: 500px;
@@ -208,10 +215,11 @@ html {
     width: 75%;
     align-items: center;
     color: white;
+    border-radius: 10px;
 }
 
 .topico5 {
-    border: solid white;
+    border: solid white 2px;
     display: flex;
     flex-direction: row;
     margin: 500px;
@@ -220,18 +228,20 @@ html {
     width: 75%;
     align-items: center;
     color: white;
+    border-radius: 10px;
 }
 
 .topico6 {
-    border: solid white;
+    border: solid white 2px;
     display: flex;
     flex-direction: row;
-    margin: 500px;
+    margin: 50px;
     margin-top: 180px;
     margin-left: 20%;
     width: 75%;
     align-items: center;
     color: white;
+    border-radius: 10px;
 }
 
 #caranopc {
@@ -241,16 +251,44 @@ p {
     margin: 10px;
 }
  #titulosobre {
-    border: solid white;
+    border: solid white 2px;
     display: flex;
     color: #1B6F14;
     text-align: center;
+    border-radius: 10px;
  }
 h1 {
     margin: 0px;
 }
 .id1 {
+    border: solid rgb(255, 255, 255) 2px;
+    color: white;
+
+}
+.rodape {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    background-color: #1B6F14;
+    justify-content: center;
+
+}
+#rd1 {
     display: flex;
     align-items: center;
-    padding: 0px;
+    color: white;
+}
+#rd2 {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    height: auto;
+    width: 75%;
+    text-align: center;
+    border-right: solid white 2px;
+    border-left: solid white 2px;
+}
+#rd3 {
+    color: white;
 }
