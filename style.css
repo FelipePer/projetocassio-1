@@ -5,7 +5,7 @@ body {
 
 }
 a {
-    text-decoration: no;
+    text-decoration: none;
     color: white;
 }
 
@@ -15,6 +15,7 @@ html {
 
 .logoif {
     margin: 40;
+    margin-left: 110px;
 
 }
 
@@ -69,18 +70,21 @@ html {
     color: #0E66B8;
     margin-top: 5%;
     margin-left: 10%;
+    font-size: 45px;
     padding: 0px;
 }
 #em {
     display: flex;
     margin-left: 30%;
     color: #FAFF00;
+    font-size: 45px;
     padding: 0px;
 }
 #sist {
     display: flex;
     margin-left: 40%;
     color: #1B6F14;
+    font-size: 45px;
 
 }
 
@@ -88,6 +92,7 @@ html {
     display: flex;
     margin-left: 60%;
     color: #FAFF00;
+    font-size: 45px;
 
 }
 
@@ -95,6 +100,7 @@ html {
     display: flex;
     margin-left: 75%;
     color: #0E66B8;
+    font-size: 45px;
 
 }
 #slogan {
@@ -166,32 +172,30 @@ html {
     text-decoration: none;
 }
 
-.p {
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-}
-
 .topico1 {
-    border: solid white 2px;
+
     display: flex;
     flex-direction: row;
-    margin: 500px;
-    margin-top: 180px;
-    margin-left: 20%;
+    margin: 50px;
+    margin-top: 130px;
+    margin-left: 15%;
     width: 75%;
     align-items: center;
     color: white;
     border-radius: 10px;
 }
 
+.sobretec {
+    text-align: center;
+}
+
 .topico2 {
-    border: solid white 2px;
+
     display: flex;
     flex-direction: row;
-    margin: 500px;
-    margin-top: 180px;
-    margin-left: 20%;
+    margin: 50px;
+    margin-top: 150px;
+    margin-left: 15%;
     width: 75%;
     align-items: center;
     color: white;
@@ -199,12 +203,12 @@ html {
 }
 
 .topico3 {
-    border: solid white 2px;
+
     display: flex;
     flex-direction: row;
-    margin: 500px;
+    margin: 50px;
     margin-top: 180px;
-    margin-left: 20%;
+    margin-left: 15%;
     width: 75%;
     align-items: center;
     color: white;
@@ -212,12 +216,12 @@ html {
 }
 
 .topico4 {
-    border: solid white 2px;
+
     display: flex;
     flex-direction: row;
-    margin: 500px;
+    margin: 50px;
     margin-top: 180px;
-    margin-left: 20%;
+    margin-left: 15%;
     width: 75%;
     align-items: center;
     color: white;
@@ -225,12 +229,12 @@ html {
 }
 
 .topico5 {
-    border: solid white 2px;
+
     display: flex;
     flex-direction: row;
-    margin: 500px;
+    margin: 50px;
     margin-top: 180px;
-    margin-left: 20%;
+    margin-left: 15%;
     width: 75%;
     align-items: center;
     color: white;
@@ -238,36 +242,53 @@ html {
 }
 
 .topico6 {
-    border: solid white 2px;
+
     display: flex;
     flex-direction: row;
     margin: 50px;
     margin-top: 180px;
-    margin-left: 20%;
+    margin-left: 15%;
     width: 75%;
     align-items: center;
     color: white;
     border-radius: 10px;
 }
-
-#caranopc {
-    margin-right: 50px;
-}
-p {
-    margin: 10px;
-}
- #titulosobre {
-    border: solid white 2px;
+.horariotext {
     display: flex;
+    flex-direction: column;
+}
+
+#caranopc1 {
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.p {
+    margin: 130px;
+}
+
+p {
+    margin: 0px;
+
+}
+
+ #titulosobre {
+
     color: #1B6F14;
     text-align: center;
-    border-radius: 10px;
- }
+    margin: 30px;
+}
+
+#outrasinfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 h1 {
     margin: 0px;
 }
 .id1 {
-    border: solid rgb(255, 255, 255) 2px;
+    
     color: white;
 
 }
@@ -275,7 +296,7 @@ h1 {
     display: flex;
     flex-direction: row;
     margin-top: 200px;
-    background-color: #1B6F14;
+    background-color: #1c6f14;
     justify-content: center;
 
 }
@@ -292,9 +313,9 @@ h1 {
     height: auto;
     width: 75%;
     text-align: center;
-    border-right: solid white 2px;
-    border-left: solid white 2px;
+    border-right: solid white 1px;
+    border-left: solid white 1px;
 }
 #rd3 {
-    color: white;
+    color: #101728;
 }
