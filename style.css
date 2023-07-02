@@ -1,336 +1,336 @@
 body {
-    margin: 0;
-    height: 100vh;
-    background-color: #101728;
+    margin: 0; /*Sem margem em ambos os lados*/
+    height: 100vh; /*determina a altura da área do conteúdo de um elemento*/
+    background-color: #101728; /*Cor de fundo*/
 
 }
 a {
-    text-decoration: none;
-    color: white;
-}
+    text-decoration: none; /*definir a formatação de underline , overline , line-through ou blink*/
+    color: white; /*Cor do texto*/
+} 
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*especifica o comportamento de rolagem para uma caixa de scrolling*/
 }
 
 .logoif {
-    margin: 20;
-    margin-left: 110px;
+    margin: 20; /*Largura da margem em ambos os lados*/
+    margin-left: 110px; /*Margem do lado esquerdo*/
 
 }
 
 .show-button .topo {
-    right: 20px;
+    right: 20px; /*definir a posição horizontal do elemento em relação a sua borda direita*/
 }
 
 
 .box-busca {
-    position: absolute;
-    margin-left: 80%;
-    top: 14%;
+    position: absolute; /*Posição do elemento*/
+    margin-left: 80%; /*Margem do lado esquerdo*/
+    top: 14%; /*indicar o espaço acima do elemento*/
     transform: translate(-50%, -50%);
-    background-color: #1B6F14;
-    height: 20px;
-    padding: 10px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #1B6F14; /*Cor do fundo da div*/
+    height: 20px; /*determina a altura da área do conteúdo de um elemento*/
+    padding: 10px; /*Margem interna da div*/
+    border-radius: 50px; /*Colocar bordas redondadas*/
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    justify-content: space-between; /*alinhar os itens horizontalmente dentro de um container*/
+    align-items: center; /*Alinhar todos os items criados para o centro*/
 }
 
 .search-txt {
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    font-size: 13px;
-    line-height: 40px;
-    width: 240px;
-    color: white;
+    border: none; /*Borda*/
+    background: none; /*Fundo*/
+    outline: none; /*remover o comportamento padrão do browser de adicionar uma borda a um elemento quando ele esta selecionado*/
+    padding: 0; /*Margem interna da div*/
+    font-size: 13px; /*Largura da fonte*/
+    line-height: 40px; /*controlar o espaçamento entre as linhas de um texto*/
+    width: 240px; /*Largura que ira oculpar*/
+    color: white; /*Cor do texto*/
 }
 
 .search-btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #1B6F14;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 40px; /*Largura que ira oculpar*/
+    height: 40px; /*determina a altura da área do conteúdo de um elemento*/
+    border-radius: 50%; /*Colocar bordas redondadas*/
+    background-color: #1B6F14; /*Cor de fundo*/
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    justify-content: center; /*alinhar os itens horizontalmente dentro de um container*/
+    align-items: center; /*Alinhar todos os items criados para o centro*/
 }
 
 
 .lupapng {
-    margin-top: 5px;
-    margin-left: 3px;
+    margin-top: 5px; /*Quantidade em pixels que vai dar de margem em cima*/
+    margin-left: 3px; /*Margem do lado esquerdo*/
 }
 
 #tec {
-    display: flex;
-    color: #0E66B8;
-    margin-top: 5%;
-    margin-left: 10%;
-    font-size: 50px;
-    padding: 0px;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    color: #0E66B8; /*Cor do texto*/
+    margin-top: 5%; /*Quantidade em pixels que vai dar de margem em cima*/
+    margin-left: 10%; /*Margem do lado esquerdo*/
+    font-size: 50px; /*Largura da fonte*/
+    padding: 0px; /*Margem interna da div*/
 }
 #em {
-    display: flex;
-    margin-left: 32%;
-    color: #FAFF00;
-    font-size: 50px;
-    padding: 0px;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    margin-left: 32%; /*Margem do lado esquerdo*/
+    color: #FAFF00; /*Cor do texto*/
+    font-size: 50px; /*Largura da fonte*/
+    padding: 0px; /*Margem interna da div*/
 }
 #sist {
-    display: flex;
-    margin-left: 41%;
-    color: #1B6F14;
-    font-size: 50px;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    margin-left: 41%; /*Margem do lado esquerdo*/
+    color: #1B6F14; /*Cor do texto*/
+    font-size: 50px; /*Largura da fonte*/
 
 }
 
 #para {
-    display: flex;
-    margin-left: 64%;
-    color: #FAFF00;
-    font-size: 50px;
-
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    margin-left: 64%; /*Margem do lado esquerdo*/
+    color: #FAFF00; /*Cor do texto*/
+    font-size: 50px; /*Largura da fonte*/
+ 
 }
 
 #net {
-    display: flex;
-    margin-left: 75%;
-    color: #0E66B8;
-    font-size: 50px;
-
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    margin-left: 75%; /*Margem do lado esquerdo*/
+    color: #0E66B8; /*Cor do texto*/
+    font-size: 50px; /*Largura da fonte*/
+ 
 }
 #slogan {
-    display: flex;
-    color: white;
-    margin-left: 10%;
-    background-color: #1B6F14;
-    border-radius: 10px;
-    border: solid black;
-    font-size: x-large;
-    margin-left: 20%;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    color: white; /*Cor do texto*/
+    margin-left: 10%; /*Margem do lado esquerdo*/
+    background-color: #1B6F14; /*Cor de fundo*/
+    border-radius: 10px; /*Colocar bordas redondadas*/
+    border: solid black; /*Cor da borda solida*/
+    font-size: x-large; /*Largura da fonte*/
+    margin-left: 20%; /*Margem do lado esquerdo*/
 }
 
 .topo {
-    position: fixed;
-    bottom: 20px;
-    right: 50px;
-    border: solid white;
-    border-radius: 50px;
+    position: fixed; /*Posição do elemento no todo*/
+    bottom: 20px; /*Tamanho do botão*/
+    right: 50px; /*definir a posição horizontal do elemento em relação a sua borda direita*/
+    border: solid white; /*Cor da borda solida*/
+    border-radius: 50px; /*Colocar bordas redondadas*/
 }
 
 #top1 {
-    color: green;
-    font-size: large;
-    text-decoration: none;
+    color: green; /*Cor do texto*/
+    font-size: large;  /*Largura da fonte*/
+    text-decoration: none; /*definir a formatação de underline , overline , line-through ou blink*/
 
 }
 #top2 {
-    color: green;
-    font-size: large;
-    text-decoration: none;
-
+    color: green; /*Cor do texto*/
+    font-size: large; /*Largura da fonte*/
+    text-decoration: none; /*definir a formatação de underline , overline , line-through ou blink*/
+ 
 }
 #top3 {
-    color:green;
-    font-size: large;
-    text-decoration: none;
+    color:green; /*Cor do texto*/
+    font-size: large; /*Largura da fonte*/
+    text-decoration: none; /*definir a formatação de underline , overline , line-through ou blink*/
 
 }
 #top4 {
-    color:green;
-    font-size: large;
-    text-decoration: none;
+    color:green; /*Cor do texto*/
+    font-size: large; /*Largura da fonte*/
+    text-decoration: none; /*definir a formatação de underline , overline , line-through ou blink*/
 
 
 }
 #top5 {
-    color:green;
-    font-size: large;
-    text-decoration: none;
+    color:green; /*Cor do texto*/
+    font-size: large; /*Largura da fonte*/
+    text-decoration: none; /*definir a formatação de underline , overline , line-through ou blink*/
 
 }
 #top6 {
-    color:green;
-    font-size: large;
-    text-decoration: none;
+    color:green; /*Cor do texto*/
+    font-size: large; /*Largura da fonte*/
+    text-decoration: none; /*definir a formatação de underline , overline , line-through ou blink*/
 
 }
 
 
 .bo {
-    display: flex;
-    flex-direction: row;
-    margin: 100px;
-    margin-top: 120px;
-    margin-left: 150px;
-    width: 80%;
-    justify-content: space-around;
-    text-decoration: none;
-    background-color: rgba(169, 169, 169, 0.074);
-    border-radius: 30px
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: row; /*Colocar as divs alinhadas*/
+    margin: 100px; /*Largura da margem em ambos os lados*/
+    margin-top: 120px; /*Quantidade em pixels que vai dar de margem em cima*/
+    margin-left: 150px; /*Margem do lado esquerdo*/
+    width: 80%; /*Largura que ira oculpar*/
+    justify-content: space-around; /*alinhar os itens horizontalmente dentro de um container*/
+    text-decoration: none; /*definir a formatação de underline , overline , line-through ou blink*/
+    background-color: rgba(169, 169, 169, 0.074); /*Cor de fundo*/
+    border-radius: 30px /*Colocar bordas redondadas*/
     
 }
 
 .topico1 {
 
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    margin-top: 130px;
-    margin-left: 15%;
-    width: 75%;
-    align-items: center;
-    color: white;
-    border-radius: 10px;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: row; /*Colocar as divs alinhadas*/
+    margin: 50px; /*Largura da margem em ambos os lados*/
+    margin-top: 130px; /*Quantidade em pixels que vai dar de margem em cima*/
+    margin-left: 15%;  /*Margem do lado esquerdo*/
+    width: 75%; /*Largura que ira oculpar*/
+    align-items: center; /*Alinhar todos os items criados para o centro*/
+    color: white; /*Cor da letra*/
+    border-radius: 10px; /*Colocar bordas redondadas*/
 }
 
 .sobretec {
-    text-align: center;
-}
+    text-align: center; /*Alinhar todos os textos da divs no centro*/
+} 
 
 .topico2 {
 
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    margin-top: 150px;
-    margin-left: 15%;
-    width: 75%;
-    align-items: center;
-    color: white;
-    border-radius: 10px;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: row; /*Colocar as divs alinhadas*/
+    margin: 50px; /*Largura da margem em ambos os lados*/
+    margin-top: 150px; /*Quantidade em pixels que vai dar de margem em cima*/
+    margin-left: 15%; /*Margem do lado esquerdo*/
+    width: 75%; /*Largura que ira oculpar*/
+    align-items: center; /*Alinhar todos os items criados para o centro*/
+    color: white; /*Cor da letra*/
+    border-radius: 10px; /*Colocar bordas redondadas*/
 }
 
 .topico3 {
 
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    margin-top: 180px;
-    margin-left: 15%;
-    width: 75%;
-    align-items: center;
-    color: white;
-    border-radius: 10px;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: row; /*Colocar as divs alinhadas*/
+    margin: 50px; /*Largura da margem em ambos os lados*/
+    margin-top: 180px; /*Quantidade em pixels que vai dar de margem em cima*/
+    margin-left: 15%; /*Margem do lado esquerdo*/
+    width: 75%; /*Largura que ira oculpar*/
+    align-items: center; /*Alinhar todos os items criados para o centro*/
+    color: white; /*Cor da letra*/
+    border-radius: 10px; /*Colocar bordas redondadas*/
 }
 
 .topico4 {
 
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    margin-top: 180px;
-    margin-left: 15%;
-    width: 75%;
-    align-items: center;
-    color: white;
-    border-radius: 10px;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: row; /*Colocar as divs alinhadas*/
+    margin: 50px; /*Largura da margem em ambos os lados*/
+    margin-top: 180px; /*Quantidade em pixels que vai dar de margem em cima*/
+    margin-left: 15%; /*Margem do lado esquerdo*/
+    width: 75%; /*Largura que ira oculpar*/
+    align-items: center; /*Alinhar todos os items criados para o centro*/
+    color: white; /*Cor da letra*/
+    border-radius: 10px; /*Colocar bordas redondadas*/
 }
 
 .topico5 {
 
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    margin-top: 180px;
-    margin-left: 10%;
-    width: 75%;
-    align-items: center;
-    color: white;
-    border-radius: 10px;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: row; /*Colocar as divs alinhadas*/
+    margin: 50px; /*Largura da margem em ambos os lados*/
+    margin-top: 180px; /*Quantidade em pixels que vai dar de margem em cima*/
+    margin-left: 10%; /*Margem do lado esquerdo*/
+    width: 75%; /*Largura que ira oculpar*/
+    align-items: center; /*Alinhar todos os items criados para o centro*/
+    color: white; /*Cor da letra*/
+    border-radius: 10px; /*Colocar bordas redondadas*/
 }
 
 .topico6 {
 
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-    margin-top: 180px;
-    margin-left: 15%;
-    width: 75%;
-    align-items: center;
-    color: white;
-    border-radius: 10px;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: row; /*Colocar as divs alinhadas*/
+    margin: 50px; /*Largura da margem em ambos os lados*/
+    margin-top: 180px; /*Quantidade em pixels que vai dar de margem em cima*/
+    margin-left: 15%; /*Margem do lado esquerdo*/
+    width: 75%; /*Largura que ira oculpar*/
+    align-items: center; /*Alinhar todos os items criados para o centro*/
+    color: white; /*Cor da letra*/
+    border-radius: 10px; /*Colocar bordas redondadas*/
 }
 .horariotext {
-    display: flex;
-    flex-direction: column;
+    display: flex;  /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: column; /*Colocar as divs em coluna*/
 }
 
 #caranopc1 {
-    margin-right: 50px;
-    border-radius: 20px;
+    margin-right: 50px; /*Quantidade em pixels que vai dar de margem do lado direito*/
+    border-radius: 20px; /*Colocar bordas redondadas*/
 }
 .p {
-    margin: 130px;
+    margin: 130px; /*Largura da margem em ambos os lados*/
 }
 
 p {
-    margin: 0px;
+    margin: 0px; /*Sem margem em ambos os lados*/
 
 }
 
  #titulosobre {
 
-    color: #1B6F14;
-    text-align: center;
-    margin: 30px;
+    color: #1B6F14; /*Cor do texto*/
+    text-align: center; /*Alinhar todos os textos da divs no centro*/
+    margin: 30px; /*Largura da margem em ambos os lados*/
 }
 
 #outrasinfo{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: column; /*Colocar as divs em coluna*/
+    text-align: center; /*Alinhar todos os textos da divs no centro*/
 }
 
 #corpodocente {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: column; /*Colocar as divs em coluna*/
+    text-align: center; /*Alinhar todos os textos da divs no centro*/
+    width: 100%; /*Largura que ira oculpar*/
 }
 
 #gestao {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: column; /*Colocar as divs em coluna*/
+    text-align: center; /*Alinhar todos os textos da divs no centro*/
 }
 h1 {
-    margin: 0px;
+    margin: 0px; /*Sem margem em ambos os lados*/
 }
 .id1 {
     
-    color: white;
+    color: white; /*Cor do texto*/
 
 }
 .rodape {
-    display: flex;
-    flex-direction: row;
-    margin-top: 200px;
-    background-color: #1c6f14c4;
-    justify-content: center;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: row; /*Colocar as divs alinhadas*/
+    margin-top: 200px; /*Quantidade em pixels que vai dar de margem em cima*/
+    background-color: #1c6f14c4; /*Cor de fundo da div*/
+    justify-content: center; /*alinhar os itens horizontalmente dentro de um container*/
 
 }
 #rd1 {
-    display: flex;
-    align-items: center;
-    color: white;
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    align-items: center; /*Alinhar todos os items criados para o centro*/
+    color: white; /*Cor do texto*/
 }
 #rd2 {
-    margin-top: 200px;
-    display: flex;
-    flex-direction: column;
-    margin: 0%;
-    height: auto;
-    width: 75%;
-    text-align: center;
-    border-right: solid white 1px;
-    border-left: solid white 1px;
+    margin-top: 200px; /*Quantidade em pixels que vai dar de margem em cima*/
+    display: flex; /*Cria um container para controlar os "filhos" dele*/
+    flex-direction: column; /*Colocar as divs em coluna*/
+    margin: 0%; /*Sem margem em ambos os lados*/
+    height: auto; /*Altura no automatico*/
+    width: 75%; /*Largura que ira oculpar*/
+    text-align: center; /*Alinhar o Texto no centro*/
+    border-right: solid white 1px; /*Cria uma borda solida só do lado direito*/
+    border-left: solid white 1px; /*Cria uma borda solida só do lado esquerdo*/
 }
 #rd3 {
-    color: #101728;
+    color: #101728; /*Cor da letra*/
 }
